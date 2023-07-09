@@ -3,7 +3,8 @@ Controle node AWSIM  by NintenDo Switch Joycon
 
 # Environment
 This tool uses AWSIM and Autoware.
-Please refer to the following to set up the environment. 
+- Please refer to the following to set up the environment. 
+
 [aichallenge2023-sim](https://github.com/AutomotiveAIChallenge/aichallenge2023-sim)
 
 
