@@ -41,7 +41,6 @@ class joycon_teleop(Node):
 
     def __init__(self):
         super().__init__('joycon_teleop')
-        self.twist_pub = self.create_publisher(Twist, "/turtle1/cmd_vel", 100)
 
         self.create_subscription(VelocityReport ,"/vehicle/status/velocity_status", self.GetVelocity, 1)
 
