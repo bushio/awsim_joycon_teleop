@@ -17,7 +17,6 @@ from rclpy.qos import qos_profile_services_default
 from geometry_msgs.msg import Twist
 import pygame
 from pygame.locals import *
-import time
 
 ROTATION = 0
 BTN_NAME = ['A', 'X', 'B', 'Y']
