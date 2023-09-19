@@ -51,7 +51,7 @@ $./AWSIM/AWSIM.x86_64
 ```
 $cd /aichallenge/
 $bash build.sh 
-$source install/setup.bash
+$source aichallenge_ws/install/setup.bash
 $ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=golfcart sensor_model:=awsim_sensor_kit map_path:=/aichallenge/mapfile
 ```
 3. Initialize pose
@@ -74,7 +74,7 @@ From "Setting/Bluetooth" on Ubuntu, find "Joy-con(R)" and connect with it.
 ```
 $cd /aichallenge/
 $bash build.sh
-$source install/setup.bash
+$source aichallenge_ws/install/setup.bash
 $ros2 run awsim_joycon_teleop awsim_joycon_teleop
 ```
 
